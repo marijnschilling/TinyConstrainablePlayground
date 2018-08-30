@@ -16,9 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E60BCA402138159D00A98088 /* PBXContainerItemProxy */ = {
+		E60B2BEF21381AD800484721 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E60BCA3C2138159D00A98088 /* TinyConstraints.xcodeproj */;
+			containerPortal = E60B2BEB21381AD700484721 /* TinyConstraints.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2DD986FB1E4DB973002F80D6;
 			remoteInfo = TinyConstraints;
@@ -26,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E60B2BEB21381AD700484721 /* TinyConstraints.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TinyConstraints.xcodeproj; path = Carthage/Checkouts/TinyConstraints/TinyConstraints.xcodeproj; sourceTree = "<group>"; };
 		E60BCA0E213811EB00A98088 /* TinyConstrainablePlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinyConstrainablePlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60BCA11213811EB00A98088 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E60BCA13213811EB00A98088 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,7 +36,6 @@
 		E60BCA1D213811EC00A98088 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E60BCA292138133900A98088 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		E60BCA2E213813BA00A98088 /* TinyConstraints.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TinyConstraints.framework; path = Carthage/Build/iOS/TinyConstraints.framework; sourceTree = "<group>"; };
-		E60BCA3C2138159D00A98088 /* TinyConstraints.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TinyConstraints.xcodeproj; path = Carthage/Checkouts/TinyConstraints/TinyConstraints.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,10 +50,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E60B2BEC21381AD700484721 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E60B2BF021381AD800484721 /* TinyConstraints.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		E60BCA05213811EB00A98088 = {
 			isa = PBXGroup;
 			children = (
-				E60BCA3C2138159D00A98088 /* TinyConstraints.xcodeproj */,
+				E60B2BEB21381AD700484721 /* TinyConstraints.xcodeproj */,
 				E60BCA292138133900A98088 /* MyPlayground.playground */,
 				E60BCA10213811EB00A98088 /* TinyConstrainablePlayground */,
 				E60BCA0F213811EB00A98088 /* Products */,
@@ -88,14 +96,6 @@
 				E60BCA2E213813BA00A98088 /* TinyConstraints.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		E60BCA3D2138159D00A98088 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E60BCA412138159D00A98088 /* TinyConstraints.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,8 +146,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = E60BCA3D2138159D00A98088 /* Products */;
-					ProjectRef = E60BCA3C2138159D00A98088 /* TinyConstraints.xcodeproj */;
+					ProductGroup = E60B2BEC21381AD700484721 /* Products */;
+					ProjectRef = E60B2BEB21381AD700484721 /* TinyConstraints.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -158,11 +158,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		E60BCA412138159D00A98088 /* TinyConstraints.framework */ = {
+		E60B2BF021381AD800484721 /* TinyConstraints.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = TinyConstraints.framework;
-			remoteRef = E60BCA402138159D00A98088 /* PBXContainerItemProxy */;
+			remoteRef = E60B2BEF21381AD800484721 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
